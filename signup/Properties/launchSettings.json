@@ -1,0 +1,47 @@
+﻿{
+  "$schema": "https://json.schemastore.org/launchsettings.json",
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:45774",
+      "sslPort": 44336
+    }
+  },
+  "profiles": {
+    "signup": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "applicationUrl": "https://localhost:7081;http://localhost:5023",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        
+        "DEV_URL": "https://mskdevstorage428.table.core.windows.net",
+        "PROD_URL": "https://mskprodstorage428.table.core.windows.net",
+        "STAGE_URL": "https://mskstagestorage428.table.core.windows.net",
+
+        "EMPLOYEES": "mskEmployees",
+        "ORGANIZATION": "mskOrganization",
+        "SUBSCRIPTION": "mskSubscription",
+        "TAGS": "mskTag",
+        "CATEGORY": "mskCategory",
+        "WAREHOUSE": "mskWarehouse",
+        "USERS_ROLES": "mskUsersRoles",
+        "REGISTERED_USERS": "mskRegisteredUsers",
+        "USERS_LOGIN": "mskUsersLogin",
+
+        "IMAGE_UPLOADS": "msk-imageuploads"
+      }
+    },
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}
