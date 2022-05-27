@@ -9,7 +9,6 @@
 /home/debrah/Pictures/clients/eleventh-afps/signup/bin/Debug/net6.0/Azure.Data.Tables.dll
 /home/debrah/Pictures/clients/eleventh-afps/signup/bin/Debug/net6.0/Azure.Identity.dll
 /home/debrah/Pictures/clients/eleventh-afps/signup/bin/Debug/net6.0/MediatR.dll
-/home/debrah/Pictures/clients/eleventh-afps/signup/bin/Debug/net6.0/MediatR.Contracts.dll
 /home/debrah/Pictures/clients/eleventh-afps/signup/bin/Debug/net6.0/MediatR.Extensions.Microsoft.DependencyInjection.dll
 /home/debrah/Pictures/clients/eleventh-afps/signup/bin/Debug/net6.0/Microsoft.Bcl.AsyncInterfaces.dll
 /home/debrah/Pictures/clients/eleventh-afps/signup/bin/Debug/net6.0/Microsoft.Identity.Client.dll

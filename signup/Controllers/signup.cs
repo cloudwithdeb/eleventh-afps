@@ -17,10 +17,16 @@ namespace SignupControllerNamespace
         }
 
         [HttpPost]
-        public IActionResult createAccount(RegistrationFormModel user)
+        public async Task<IActionResult> createAccount(RegistrationFormModel user)
         {
-            var _results = _mediator.Send(new SignupCommandAndHandler.SignupCommand(user));
+            var _results = await _mediator.Send(new SignupCommandAndHandler.SignupCommand(user));
             return Ok(_results);
+        }
+
+        [HttpGet]
+        public IActionResult welcome()
+        {
+            return Ok("Welcome to Eleventh Epfs Api");
         }
     }
 }

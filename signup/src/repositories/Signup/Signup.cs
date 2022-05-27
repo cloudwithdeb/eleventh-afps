@@ -8,7 +8,7 @@ namespace SignupRepositoryNamespace
 {
     public class SignupRepository : ISignupRepository
     {
-        public List<PersonalDetailsModel> DoesUserExists(string contact, string email, string storageurl, string tablename, string filterColumn, string filterValue)
+        public List<PersonalDetailsModel> DoesUserExists(string storageurl, string tablename, string filterColumn, string filterValue)
         {
             
             TableClient _tableClient = new TableClient(new Uri(storageurl), tablename, new DefaultAzureCredential());

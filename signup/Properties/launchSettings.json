@@ -18,21 +18,12 @@
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development",
         
-        "DEV_URL": "https://mskdevstorage428.table.core.windows.net",
-        "PROD_URL": "https://mskprodstorage428.table.core.windows.net",
-        "STAGE_URL": "https://mskstagestorage428.table.core.windows.net",
-
-        "EMPLOYEES": "mskEmployees",
-        "ORGANIZATION": "mskOrganization",
-        "SUBSCRIPTION": "mskSubscription",
-        "TAGS": "mskTag",
-        "CATEGORY": "mskCategory",
-        "WAREHOUSE": "mskWarehouse",
-        "USERS_ROLES": "mskUsersRoles",
-        "REGISTERED_USERS": "mskRegisteredUsers",
-        "USERS_LOGIN": "mskUsersLogin",
-
-        "IMAGE_UPLOADS": "msk-imageuploads"
+        "USERS_TABLE_NAME": "azEleventhEpfsUsersTable",
+        "EMERGENCY_TABLE_NAME": "azEleventhEpfsEmergencyTable",
+        "SYMPOSIUM_TABLE_NAME": "azEleventhEpfsSymposiumTable",
+        "TABLE_STORAGE_ACCOUNT_URL": "https://eleventhepfsapp.table.core.windows.net",
+        "STORAGE_ACCOUNT_NAME": "eleventhepfsapp",
+        "STORAGE_ACCOUNT_CONTAINER": "eleventhepfs"
       }
     },
     "IIS Express": {

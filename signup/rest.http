@@ -1,0 +1,39 @@
+
+# @name RegistrationForm
+
+POST {{cloud}}/Signup
+content-type: application/json
+
+{
+  "personalDetails": {
+    "fullname": "Isaac Obeng Frimpong",
+    "email": "isaac@gmail.com",
+    "contact": "0271010983",
+    "gender": "male",
+    "dob": "10/10/2022",
+    "whatsappPhone": "0549101188",
+    "nationality": "Ghanaian",
+    "association": "Women in power",
+    "yearOfStudy": "5",
+    "passportNumber": "10477473984983",
+    "passportExpireDate": "10/10/26",
+    "medicalCondition": "Dont have a condition",
+    "foodOrBaveragealergy": "Dont have any",
+    "fileUrl": "https://file",
+    "pictureUrl": "https://images"
+  },
+  "symption": {
+    "attendBefore": true,
+    "officialDelegate": false,
+    "eventType": "Medical events",
+    "canShareRoom": true,
+    "tShirtSize": 7,
+    "paymentPackage": "Big"
+  },
+  "emergency": {
+    "fullname": "Obeng Primpong",
+    "phone": "0201098450",
+    "whatsappPhone": "0501900589",
+    "email": "obeng@gmail.com"
+  }
+}
